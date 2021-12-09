@@ -1,0 +1,16 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background: #0e1217;
+}
+body:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 748px;
+  background: linear-gradient(0deg, rgba(240, 104, 34, 0), #f06822), #0e1217;
+  opacity: 0.33;
+  z-index: -1;
+}
